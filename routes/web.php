@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Admin\FinanceController; // <-- IMPORT CONTROLLER FINANCE
 
 // Redirect root ke login
 Route::get('/', function () {
@@ -32,6 +33,9 @@ Route::middleware('auth')->group(function () {
     // 3. Manajemen Akun
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
     Route::post('/users/{id}/toggle-status', [UserController::class, 'toggleStatus'])->name('users.toggle_status');
+
+    // 4. Manajemen Keuangan
+    Route::get('/finance', [FinanceController::class, 'index'])->name('finance.index');
     
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });

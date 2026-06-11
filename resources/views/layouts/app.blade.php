@@ -62,6 +62,9 @@
             <a href="{{ route('users.index') }}" class="sidebar-link flex items-center px-4 py-3 rounded-lg text-gray-500 {{ request()->routeIs('users.*') ? 'active' : '' }}">
                 <i class="fa-solid fa-users-gear w-7 text-lg"></i> <span>Manajemen Akun</span>
             </a>
+            <a href="{{ route('finance.index') }}" class="sidebar-link flex items-center px-4 py-3 rounded-lg text-gray-500 {{ request()->routeIs('finance.*') ? 'active' : '' }}">
+                <i class="fa-solid fa-wallet w-7 text-lg"></i> <span>Monitor Keuangan</span>
+            </a>
         </nav>
 
         <div class="p-5 border-t border-gray-100">
@@ -110,5 +113,9 @@
             </div>
         </main>
     </div>
+
+    {{-- Penempatan stack scripts di akhir body agar script chart.js bisa dipanggil --}}
+    @stack('scripts')
+    
 </body>
 </html>

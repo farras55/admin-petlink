@@ -19,9 +19,15 @@ class Clinic extends Model
         'reviewed_by', 'reviewed_on', 'rejection_reason'
     ];
 
-    // Relasi untuk mengambil dokumen KTP, NIB, dan Foto
+    // Relasi untuk mengambil dokumen KTP, NIB, dan Foto (Sudah ada)
     public function documents()
     {
         return $this->hasMany(ClinicDocument::class, 'id_clinic', 'id_clinic');
+    }
+
+    // 🌟 TAMBAHAN BARU: Relasi One-to-Many ke tabel booking
+    public function bookings()
+    {
+        return $this->hasMany(Booking::class, 'id_clinic', 'id_clinic');
     }
 }
