@@ -11,6 +11,11 @@ Route::get('/', function () {
     return redirect('/login');
 });
 
+Route::get('/promo', function () {
+    // Pastikan path-nya sesuai dengan tempat kamu menyimpan file landing.blade.php
+    return view('landing'); 
+})->name('landing.promo');
+
 // Route untuk tamu (belum login)
 Route::middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'login'])->name('login');

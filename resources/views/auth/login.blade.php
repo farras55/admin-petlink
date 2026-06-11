@@ -83,6 +83,23 @@
                 </button>
             </form>
         </div>
+        <div class="mt-8">
+                <div class="relative">
+                    <div class="absolute inset-0 flex items-center">
+                        <div class="w-full border-t border-gray-200"></div>
+                    </div>
+                    <div class="relative flex justify-center text-sm">
+                        <span class="px-3 bg-white text-gray-400 font-medium font-sans">Atau jelajahi aplikasi</span>
+                    </div>
+                </div>
+
+                <div class="mt-6 text-center">
+                    <a href="{{ route('landing.promo') }}" class="w-full flex items-center justify-center gap-2 bg-primary/5 hover:bg-primary/10 text-primary font-bold py-3 px-4 rounded-xl transition duration-300 border border-primary/20">
+                        <i class="fa-solid fa-rocket text-warning text-lg"></i>
+                        Lihat Landing Page PetLink
+                    </a>
+                </div>
+            </div>
     </div>
 </div>
 @endsection
