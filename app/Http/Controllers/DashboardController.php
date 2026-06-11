@@ -94,6 +94,7 @@ class DashboardController extends Controller
         $clinic = Clinic::findOrFail($id);
         $clinic->update([
             'status_verification' => 'rejected',
+            'is_active' => false, // Nonaktifkan klinik yang ditolak
             'rejection_reason' => $request->rejection_reason,
             'reviewed_by' => Auth::user()->id_user,
             'reviewed_on' => now(),
