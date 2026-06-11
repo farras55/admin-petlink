@@ -241,7 +241,7 @@
                 <div class="bg-background rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all flex flex-col group cursor-pointer" data-aos="fade-up" data-aos-delay="300">
                     <div class="p-8 pb-8 flex-1">
                         <div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6"><i class="fa-solid fa-laptop-code text-2xl text-primary"></i></div>
-                        <h3 class="text-xl font-heading font-bold text-dark mb-3">Klinik/Kasir (Web Admin)</h3>
+                        <h3 class="text-xl font-heading font-bold text-dark mb-3">Klinik</h3>
                         <p class="text-sm text-textMuted leading-relaxed">Konfirmasi kehadiran antrean, kelola sistem tagihan pembayaran, dan pantau grafik pendapatan harian klinik.</p>
                     </div>
                     <div class="w-full aspect-video overflow-hidden mt-auto border-t border-gray-100 relative bg-gray-50">
