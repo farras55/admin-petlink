@@ -23,4 +23,5 @@ RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available
 # Command saat container jalan: install dependensi, migrasi, lalu jalankan server
 CMD composer install --no-dev --optimize-autoloader && \
     php artisan migrate --force && \
+    a2dismod mpm_event && a2enmod mpm_prefork && \
     apache2-foreground
