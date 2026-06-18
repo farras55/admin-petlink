@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetLink | Ekosistem Digital Kesehatan Anabul</title>
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: { 
-                        sans: ['Inter', 'sans-serif'], 
-                        heading: ['Poppins', 'sans-serif'] 
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif']
                     },
                     colors: {
                         primary: '#087C91', primaryDark: '#065b6b', accent: '#7EC8E3',
@@ -61,7 +61,7 @@
         <div class="absolute inset-0 bg-gradient-to-br from-background to-white -z-10"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                
+
                 <div class="order-2 lg:order-1 text-center lg:text-left" data-aos="fade-right" data-aos-duration="1000">
                     <span class="px-4 py-1.5 rounded-full bg-primary/10 text-primary font-bold text-xs tracking-wider uppercase mb-6 inline-block">
                         Aplikasi Manajemen Klinik Terpadu
@@ -73,7 +73,7 @@
                         PetLink adalah platform integrasi menyeluruh yang menghubungkan Pemilik Hewan, Klinik, dan Dokter Hewan demi efisiensi layanan medis yang lebih baik.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="https://drive.google.com/file/d/1e3Foh92fhVv6-PoOOPnYea9WPTOWx6ju/view?usp=sharing" target="_blank" class="px-8 py-3.5 rounded-xl bg-primary text-white font-bold text-center hover:bg-primaryDark transition-all shadow-lg shadow-primary/30 flex items-center justify-center">
+                        <a href="https://drive.google.com/file/d/1xah37meypfNCQdwTY44XBiHJwECYrfI2/view?usp=sharing" target="_blank" class="px-8 py-3.5 rounded-xl bg-primary text-white font-bold text-center hover:bg-primaryDark transition-all shadow-lg shadow-primary/30 flex items-center justify-center">
                             <i class="fa-brands fa-google-play mr-2"></i> Download Aplikasi
                         </a>
                         <a href="https://wa.me/6285330636086" target="_blank" class="px-8 py-3.5 rounded-xl bg-white border border-gray-200 text-dark font-bold text-center hover:border-primary hover:text-primary transition-all flex items-center justify-center">
@@ -102,7 +102,7 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                
+
                 <!-- BOX MASALAH (Kiri) -->
                 <div class="bg-white p-8 rounded-2xl border border-red-100 shadow-sm relative overflow-hidden" data-aos="fade-right" data-aos-duration="800">
                     <div class="absolute top-0 left-0 w-2 h-full bg-danger"></div>
@@ -114,7 +114,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-users-slash text-danger text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Antrean Walk-in Tidak Terstruktur</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Antrean Walk-in Tidak Terstruktur</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Klinik sering penuh sesak di jam tertentu. Menunggu terlalu lama di ruang tunggu sangat memicu stres pada hewan dan berisiko menularkan penyakit antar pasien.</p>
                             </div>
                         </li>
@@ -122,7 +122,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-file-waveform text-danger text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Rekam Medis Fisik (Kertas)</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Rekam Medis Fisik (Kertas)</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Pencatatan riwayat alergi dan diagnosis masih mengandalkan kartu fisik yang rentan hilang, rusak, atau lambat dicari saat terjadi keadaan darurat medis.</p>
                             </div>
                         </li>
@@ -130,7 +130,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-cash-register text-danger text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Kebocoran Finansial & Kasir</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Kebocoran Finansial & Kasir</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Penghitungan manual antara tindakan di ruang periksa dengan resep obat memicu kesalahan tagihan (human error) yang merugikan omset klinik.</p>
                             </div>
                         </li>
@@ -138,7 +138,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-house-medical-circle-xmark text-danger text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Akses Konsultasi Terbatas</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Akses Konsultasi Terbatas</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Pemilik hewan kesulitan mendapatkan saran medis awal atau follow-up pasca pengobatan karena harus selalu datang ke klinik secara fisik.</p>
                             </div>
                         </li>
@@ -146,7 +146,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-calendar-xmark text-danger text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Kelalaian Jadwal Perawatan</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Kelalaian Jadwal Perawatan</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Pemilik hewan sering lupa jadwal rutin seperti vaksinasi tahunan atau obat cacing karena tidak ada sistem pengingat yang proaktif.</p>
                             </div>
                         </li>
@@ -164,7 +164,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-calendar-check text-primary text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Manajemen Antrean Pintar</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Manajemen Antrean Pintar</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Fitur booking online dengan kuota. Pasien datang sesuai jadwal, ruang tunggu kondusif, dan dokter bekerja dengan ritme yang teratur.</p>
                             </div>
                         </li>
@@ -172,7 +172,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-laptop-medical text-primary text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Electronic Medical Record (EMR)</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Electronic Medical Record (EMR)</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Data kesehatan dan resep digital tersimpan di Cloud. Dokter dapat memantau rekam jejak pasien dari genggaman dalam hitungan detik.</p>
                             </div>
                         </li>
@@ -180,7 +180,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-file-invoice-dollar text-primary text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Kasir & Invoice Terintegrasi</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Kasir & Invoice Terintegrasi</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Tindakan medis dan e-Resep otomatis dikonversi menjadi tagihan di meja depan. Transparan, cepat, dan dilengkapi analitik pendapatan.</p>
                             </div>
                         </li>
@@ -188,7 +188,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-comments text-primary text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Layanan Telekonsultasi (Chat)</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Layanan Telekonsultasi (Chat)</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Menyediakan fitur chat langsung dengan dokter. Sangat efektif untuk penanganan darurat pertama (P3K) atau kontrol masa pemulihan dari rumah.</p>
                             </div>
                         </li>
@@ -196,7 +196,7 @@
                         <li class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid fa-bell-concierge text-primary text-lg"></i></div>
                             <div>
-                                <strong class="text-dark block mb-1.5 text-lg">Notifikasi & Pengingat Otomatis</strong> 
+                                <strong class="text-dark block mb-1.5 text-lg">Notifikasi & Pengingat Otomatis</strong>
                                 <p class="text-sm text-textMuted leading-relaxed">Sistem mengirimkan Push Notification ke HP pengguna saat tenggat waktu perawatan rutin tiba, memastikan kesehatan anabul tetap terjaga.</p>
                             </div>
                         </li>
@@ -312,7 +312,7 @@
 
             <div class="relative flex flex-col md:flex-row justify-between gap-8 md:gap-0">
                 <div class="hidden md:block absolute top-10 left-[10%] right-[10%] h-1 bg-gray-700 -z-10"></div>
-                
+
                 <div class="flex-1 text-center relative" data-aos="zoom-in" data-aos-delay="100">
                     <div class="w-20 h-20 mx-auto bg-dark border-4 border-primary rounded-full flex items-center justify-center text-3xl text-primary mb-6 shadow-[0_0_15px_rgba(8,124,145,0.5)]"><i class="fa-solid fa-magnifying-glass"></i></div>
                     <h4 class="font-heading font-bold text-lg mb-2">1. Pilih Klinik</h4>
@@ -359,7 +359,7 @@
                         <p class="text-xs text-primary">Pemilik Klinik Animalia</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex gap-6" data-aos="fade-left">
                     <img src="{{ asset('images/landing_page/foto5_petowner.png') }}" alt="Siti Pet Owner" class="w-16 h-16 rounded-full object-cover shrink-0">
                     <div>
@@ -376,7 +376,7 @@
     <section class="py-16 bg-background border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h3 class="text-2xl font-heading font-bold text-dark mb-8" data-aos="fade-up">Dikembangkan Oleh</h3>
-            
+
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="flex flex-col items-center p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="w-24 h-24 bg-primary/20 rounded-full mb-4 border-4 border-white shadow-md overflow-hidden"><img src="{{ asset('images/landing_page/nida.png') }}" alt="Naswanida" class="w-full h-full object-cover"></div>
@@ -421,7 +421,7 @@
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8" data-aos="zoom-in">
             <h2 class="text-3xl md:text-4xl font-heading font-black text-dark mb-6">Siap Memberikan yang Terbaik untuk Anabul?</h2>
             <p class="text-lg text-textMuted mb-10">Bergabunglah dengan ribuan pengguna PetLink lainnya dan rasakan kemudahan layanan kesehatan hewan di ujung jari Anda.</p>
-            
+
             <div class="flex flex-col sm:flex-row justify-center gap-4 mb-12">
                 <a href="#" class="h-14 bg-dark text-white rounded-xl px-6 flex items-center justify-center gap-3 hover:bg-gray-800 transition shadow-md">
                     <i class="fa-brands fa-google-play text-2xl"></i>
@@ -483,7 +483,7 @@
 
             // Tampilkan konten tab yang dipilih
             document.getElementById('content-' + roleId).classList.remove('hidden');
-            
+
             // Beri warna utama (Primary) pada tombol tab yang diklik
             const activeBtn = document.getElementById('btn-' + roleId);
             activeBtn.classList.remove('bg-white', 'text-gray-600', 'border', 'border-gray-200');
